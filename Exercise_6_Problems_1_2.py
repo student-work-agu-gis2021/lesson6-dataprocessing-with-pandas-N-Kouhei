@@ -19,6 +19,7 @@ data = None
 # YOUR CODE HERE 1
 fp="data/1091402.txt"
 data= pd.read_csv(fp,delim_whitespace=True,skiprows=[1],na_values=[-9999])
+
 print(data.head())
 print(data.tail())
 
